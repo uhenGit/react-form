@@ -1,0 +1,25 @@
+.form-label div {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.label-header {
+    margin: 32px 0 18px;
+}
+.label-header::after {
+    content: '*';
+    color: rgb(255, 0, 0);
+}
+.form-label input {
+    width: 100%;
+    font-size: 23px;
+    padding: 4px 0;
+    text-indent: 8px;
+    border-radius: 5px;
+}
+.hide-pass {
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    bottom: 3%;
+}

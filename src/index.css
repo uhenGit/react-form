@@ -1,13 +1,41 @@
-body {
+body,
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.backgr {
+  position: relative  ;  
+  left: 0;
+  top: 0;
+}
+.backgr::after {
+  content: url(./assets/53891.png);
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.f-column {
+  flex-direction: column;
+}
+
+.f-center {
+  align-items: center;
+}
+
+.f-left {
+  align-items: flex-start;
 }

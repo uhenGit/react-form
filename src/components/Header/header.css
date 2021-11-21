@@ -1,0 +1,52 @@
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(41, 31, 57, 0.7);
+    padding: 10px 0;
+}
+.wrap {
+    width: 85%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.logo p {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.navigation {
+    flex: 1;
+    max-width: 80%;
+}
+.navigation ul {
+    justify-content: end;
+}
+.navigation ul li {
+    margin: 2% 0 auto 5%;
+}
+.navigation a {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 1px solid transparent;
+    transition-duration: 300ms;
+}
+.navigation a:hover {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.login i {
+    color:rgb(255, 255, 255);
+    margin-right: 5px;
+}
+a.current {
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 31, 57);
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+.lang {
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}
